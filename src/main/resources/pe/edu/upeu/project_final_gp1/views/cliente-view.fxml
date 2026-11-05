@@ -19,7 +19,7 @@
     <children>
         <HBox alignment="CENTER_LEFT" spacing="15.0">
             <children>
-                <Label text="Gestión de Clientes" textFill="#014074">
+                <Label text="Gestión de Clientes" textFill="#0A192F">
                     <font>
                         <Font name="System Bold" size="20.0"/>
                     </font>
@@ -34,7 +34,7 @@
             </children>
         </HBox>
 
-        <TableView fx:id="tableCliente" VBox.vgrow="ALWAYS">
+        <TableView fx:id="tableCliente" VBox.vgrow="ALWAYS" style="-fx-background-color: white; -fx-border-color: #0A192F; -fx-border-radius: 4px;">
             <columns>
                 <TableColumn fx:id="ColNumero" prefWidth="50.0" text="#"/>
                 <TableColumn fx:id="ColId" prefWidth="50.0" text="ID" visible="false"/>
